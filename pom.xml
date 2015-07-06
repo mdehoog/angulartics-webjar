@@ -44,62 +44,6 @@
         <upstream.version>0.17.2</upstream.version>
         <upstream.url>http://github.com/luisfarzati/angulartics/archive</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
-        <requirejs>
-            {
-                "paths": {
-                    "angulartics": "angulartics.min",
-                    "angulartics-woopra": "angulartics-woopra.min",
-                    "angulartics-splunk": "angulartics-splunk.min",
-                    "angulartics-segmentio": "angulartics-segmentio.min",
-                    "angulartics-scroll": "angulartics-scroll.min",
-                    "angulartics-piwik": "angulartics-piwik.min",
-                    "angulartics-mixpanel": "angulartics-mixpanel.min",
-                    "angulartics-marketo": "angulartics-marketo.min",
-                    "angulartics-loggly": "angulartics-loggly.min",
-                    "angulartics-localytics": "angulartics-localytics.min",
-                    "angulartics-kissmetrics": "angulartics-kissmetrics.min",
-                    "angulartics-intercom": "angulartics-intercom.min",
-                    "angulartics-hubspot": "angulartics-hubspot.min",
-                    "angulartics-gtm-cordova": "angulartics-gtm-cordova.min",
-                    "angulartics-gtm": "angulartics-gtm.min",
-                    "angulartics-ga-cordova-google-analytics-plugin": "angulartics-ga-cordova-google-analytics-plugin.min",
-                    "angulartics-ga-cordova": "angulartics-ga-cordova.min",
-                    "angulartics-ga": "angulartics-ga.min",
-                    "angulartics-flurry": "angulartics-flurry.min",
-                    "angulartics-debug": "angulartics-debug.min",
-                    "angulartics-cnzz": "angulartics-cnzz.min",
-                    "angulartics-chartbeat": "angulartics-chartbeat.min",
-                    "angulartics-baidu": "angulartics-baidu.min",
-                    "angulartics-adobe": "angulartics-adobe.min"
-                },
-                "shim": {
-                    "angulartics": ["angular"],
-                    "angulartics-woopra": ["angulartics"],
-                    "angulartics-splunk": ["angulartics"],
-                    "angulartics-segmentio": ["angulartics"],
-                    "angulartics-scroll": ["angulartics"],
-                    "angulartics-piwik": ["angulartics"],
-                    "angulartics-mixpanel": ["angulartics"],
-                    "angulartics-marketo": ["angulartics"],
-                    "angulartics-loggly": ["angulartics"],
-                    "angulartics-localytics": ["angulartics"],
-                    "angulartics-kissmetrics": ["angulartics"],
-                    "angulartics-intercom": ["angulartics"],
-                    "angulartics-hubspot": ["angulartics"],
-                    "angulartics-gtm-cordova": ["angulartics"],
-                    "angulartics-gtm": ["angulartics"],
-                    "angulartics-ga-cordova-google-analytics-plugin": ["angulartics"],
-                    "angulartics-ga-cordova": ["angulartics"],
-                    "angulartics-ga": ["angulartics"],
-                    "angulartics-flurry": ["angulartics"],
-                    "angulartics-debug": ["angulartics"],
-                    "angulartics-cnzz": "["angulartics"],
-                    "angulartics-chartbeat": ["angulartics"],
-                    "angulartics-baidu": ["angulartics"],
-                    "angulartics-adobe": ["angulartics"]
-                }
-            }
-        </requirejs>
     </properties>
 
     <build>
